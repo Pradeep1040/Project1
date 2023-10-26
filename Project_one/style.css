@@ -1,0 +1,185 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-color: rgb(249, 249, 249);
+
+}
+.form-control.success input
+{
+  border-color: green;
+}
+.form-control.error input
+{
+ border-color: red;
+}
+.form-control.error
+{
+  color: red;
+  font-size: 9px;
+  height: 13px;
+}
+/* .row
+{
+    background-color: white;
+    box-shadow: 12px 12px 22px gray;
+} */
+.banner-cart {
+    position: relative;
+}
+
+.banner-text
+{
+  position: absolute;
+  top: 40%;
+  color: #ffffff;
+  padding: 20px;
+}
+.banner-text p{
+    font-size: 10px;
+    margin-left: 30px;
+}
+.banner-text h4{
+
+    font-size: 35px;
+   
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 30px;
+
+
+}
+img {
+        opacity: 0.7;
+       height: 750px;
+       width: 450px;
+     }
+.second{
+    font-size: 35px;
+    color: rgba(119, 39, 15, 0.845);
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.btn-success {
+    font-family: Raleway-SemiBold;
+    
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    /* border: 2px solid rgba(103, 192, 103, 0.75); */
+    border-radius: 40px;
+    /* background: transparent; */
+    transition: all 0.3s ease 0s;
+  }
+  .btn-outline-success
+  {
+    font-family: Raleway-SemiBold;
+    
+    font-size: 13px;
+    color: rgba(7, 137, 53, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(4, 121, 4, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .form_heading
+  {
+    color: rgb(31, 180, 130);
+    text-decoration: solid;
+    margin-top: 1px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #first_name1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    
+    padding: 20px; 
+    width: 260px;
+    height: 15px; 
+  }
+  #last_name1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    padding: 20px; 
+    width: 260px;
+    height: 15px; 
+
+  }
+  #email1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    padding: 20px; 
+    height: 15px;
+    
+
+  }
+  #contact1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    padding: 20px; 
+    height: 15px;
+  }
+  #date1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    padding: 20px; 
+    width: 260px;
+    height: 15px; 
+  }
+  #time1
+  {
+    border-radius: 25px;
+    border: 2px;
+    background: rgba(215, 219, 219, 0.407);
+    padding: 20px; 
+    width: 260px;
+    height: 15px;
+  }
+  label{
+    color: grey;
+  }
+  .margin-left{
+    margin-left: 180px !important;
+    width: 200px;
+}
+  
+
+
+@media (max-width: 768px) {
+  .banner-card .banner-text {
+      display: none;
+  }
+  
+  .banner-card {
+      background-image: url("./image/img1.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 300px; /* Adjust the height as needed */
+  }
+}
+
+  
+
+  
